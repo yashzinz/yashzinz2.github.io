@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Asus Laptops</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="script.js" defer></script>
+  </head>
+  <!--Single page responive website includes a header, a main and a footer-->
+  <body>
+    <!--header of the website-->
+    <header>
+      <!--nav bar menu icon for screen sizes below 768px-->
+      <img
+        onclick="showSideBar()"
+        class="menu-icon"
+        src="image assets\menu.svg"
+        alt="navigation menu image"
+      />
+      <!--nav bar for screen sizes below 768px-->
+      <div class="sidebar">
+        <!--sidebar icons-->
+        <div class="sidebar-icons">
+          <a href="#"><img src="image assets/login-in.svg" class="login" /></a>
+          <a href="#"
+            ><img
+              onclick="hideSideBar()"
+              src="image assets/cross.svg"
+              class="cross"
+          /></a>
+        </div>
+        <!--sidebar nav links-->
+        <a href="#">PRODUCTS</a>
+        <a href="#">INNOVATION</a>
+        <a href="#">DOWNLOADS</a>
+        <a href="#">COMMUNITY</a>
+        <a href="#">WHAT'S HOT</a>
+        <a href="#">SUPPORT</a>
+      </div>
+
+      <!--for screen size above 768px, the header includes a logo, nav bar and icons for search, shop etc-->
+      <!--Rog logo on far left-->
+      <img class="logo" src="image assets\logo.svg" alt="" , width="200px" />
+
+      <!--navigation menu in the middle of header-->
+      <nav>
+        <a href="#">PRODUCTS</a>
+        <a href="#">INNOVATION</a>
+        <a href="#">DOWNLOADS</a>
+        <a href="#">COMMUNITY</a>
+        <a href="#">WHAT'S HOT</a>
+        <a href="#">SUPPORT</a>
+      </nav>
+
+      <!--asus logo, and icons for search, login and shop on the far right of the header-->
+      <div class="right-side">
+        <!--wrapping div for logo and dividing vertical line-->
+        <img class="asus-logo" src="image assets\asus.svg" alt="" />
+        <div class="divider"></div>
+        <div class="right-side icons">
+          <!--wrapping div for icons-->
+          <img src="image assets/search.svg" alt="" class="icon" />
+          <img src="image assets/login-in.svg" alt="" class="icon login-icon" />
+          <img src="image assets/shop.svg" alt="" class="icon" />
+        </div>
+      </div>
+    </header>
+
+    <!--main includes various sections with images, videos and text content-->
+    <main>
+      <!--section with links to other sections of the page-->
+      <section class="intro">
+        <img src="bg-images/bg 1.png" class="bg-img" />
+        <h2>ROG STRIX G17</h2>
+        <h3>RAISE YOUR GAME. CALL THE SHOTS.</h3>
+        <p class="intro-para">
+          Power up your Windows 11 Home gaming with the ROG Strix G17, now
+          featuring up to an AMD Ryzen™ 9 7945HX CPU and up to an NVIDIA®
+          GeForce RTX™ 4070 Laptop GPU.
+        </p>
+        <div class="nav-page">
+          <!--laptop performance section-->
+          <a href="#laptop-performance-sec-scroll">
+            <img src="image assets/windows-logo.svg" alt="" />
+            <p>
+              Enjoy effortless Windows 11 Home gaming performance with the Strix
+              G17
+            </p>
+            ​</a
+          >
+          <!--cpu section-->
+          <a href="#cpu">
+            <img src="image assets/cpu-logo.svg" alt="" />
+            <p>
+              Up to an AMD Ryzen™ 9 7945HX 16-core processor with up to a 55W
+              TDP
+            </p>
+          </a>
+          <!--gpu section-->
+          <a href="#gpu">
+            <img src="image assets/gpu-logo.svg" alt="" />
+            <p>
+              Up to an NVIDIA® GeForce RTX™ 4070 Laptop GPU with 140W max TGP,
+              DLSS 3 and NVIDIA Advanced Optimus
+            </p></a
+          >
+          <!--cooling section-->
+          <a href="#cooling"
+            ><img src="image assets/liquid-metal-logo.svg" alt="" />
+            <p>
+              ROG Intelligent Cooling, with Conductonaut Extreme liquid metal
+              thermal compound on the CPU
+            </p></a
+          >
+          <!--display section-->
+          <a href="#display"
+            ><img src="image assets/qhd-fhd-logo.svg" alt="" />
+            <p>
+              Fluid, fast-paced play with QHD 240Hz/3ms or FHD 144Hz displays
+            </p></a
+          >
+          <!--sound section-->
+          <a href="#sound"
+            ><img src="image assets/dolby-vision-atmos-logo.webp" alt="" />
+            <p>Dolby Vision and Dolby Atmos support for immersive content</p></a
+          >
+        </div>
+
+        <div class="cpu-gpu-gamepass">
+          <img
+            src="image assets/amd-ryzen-7000-series.svg"
+            alt="amd-ryzen-7000-series"
+          />
+          <img src="image assets/nvidia-logo.svg" alt="nvidia-logo" />
+          <img src="image assets/xbox-game-pass.svg" alt="xbox-game-pass" />
+        </div>
+      </section>
+
+      <!--laptop performance section-->
+      <section
+        class="laptop-performance"
+        style="position: relative"
+        id="laptop-performance-sec-scroll"
+      >
+        <div class="main-bg">
+          <!--div includes images for background of the section with absolute positioning-->
+          <div class="main-text-bg">
+            <img src="bg-text/bg-main-text.webp" class="gaming-text" />
+            <img class="performance-text" src="bg-text/bg-text.webp" />
+            <img class="laptop-bg" src="bg-text/bg-small.webp" />
+          </div>
+          <!--div includes text-content and images-->
+          <div class="laptop-performance-flexbox">
+            <!--wrapping div for flex display-->
+            <div class="laptop-performance-text-content">
+              <h2>ESPORTS DOMINATION</h2>
+              <p class="laptop-performance-para">
+                The latest AMD Ryzen™ 9 7945HX CPU, paired with up to an NVIDIA®
+                GeForce RTX™ 4070 Laptop GPU with a max TGP of 140W, as well as
+                a MUX Switch with NVIDIA Advanced Optimus support the backbone
+                of the 2023 Strix G17. Conductonaut Extreme liquid metal on the
+                CPU keeps the Strix G17 boosting the processor higher, for
+                longer. Up to 32GB of cutting-edge DDR5 memory keeps your CPU
+                fed at all times, ensuring a responsive experience. PCIe 4.0 SSD
+                support means that you’ll never need to wait for file transfers
+                or game loading screens again.
+              </p>
+              <!--list with flex display-->
+              <ul class="laptop-specs">
+                <li>
+                  <h3>Windows 11 Home</h3>
+                  <p>OS</p>
+                </li>
+                <li>
+                  <p>AMD</p>
+                  <h3>Ryzen™ 9 7945HX</h3>
+                  <p>CPU</p>
+                </li>
+                <li>
+                  <p>NVIDIA® GeForce</p>
+                  <h3>RTX™ 4070</h3>
+                  <p>Laptop GPU</p>
+                </li>
+                <li>
+                  <p>Max TGP</p>
+                  <h3>&nbsp;&nbsp;140W</h3>
+                  <p>With Dynamic boost</p>
+                </li>
+                <li>
+                  <p>NVIDIA®</p>
+                  <h3>Advanced Optimus</h3>
+                </li>
+                <li>
+                  <p>Up to</p>
+                  <h3>32GB</h3>
+                  <p>DDR5 Memory</p>
+                </li>
+                <li><h3>PCIe Gen4x4</h3></li>
+              </ul>
+            </div>
+            <img src="bg-images/strix-g-2022.jpg" class="laptop-img" />
+          </div>
+        </div>
+      </section>
+
+      <!--cpu section-->
+      <section id="cpu">
+        <div class="cpu-content">
+          <ul>
+            <!--list with display flex-->
+            <li class="cols">
+              <img src="image assets/cpu.webp" />
+              <div class="content-cols">
+                <h3>Ryzen to the challenge</h3>
+                <p>
+                  Leverage the power of Ryzen™ with the AMD Ryzen™ 9 7945HX CPU.
+                  This flagship processor has incredible single-threaded
+                  performance, critical for a smooth gaming experience. When you
+                  need to stream or record your gameplay, the 16 cores and 32
+                  threads can also flex their multi-threaded muscle without
+                  breaking a sweat. No matter how you intend to play, the AMD
+                  Ryzen™ 9 7945HX is there to support you.
+                </p>
+              </div>
+            </li>
+            <li class="cols">
+              <img src="image assets/ddr5.webp" alt="" />
+              <div class="content-cols">
+                <h3>THE NEXT GENERATION</h3>
+                <p>
+                  The next generation of memory technology has a 50% data rate
+                  than DDR4, with the Strix G17 sporting 4800MHz DDR5 RAM —
+                  speeds that put most DDR4 laptops to shame. More bandwidth and
+                  higher frequencies ensure that your CPU will never be waiting
+                  for data.
+                </p>
+              </div>
+            </li>
+            <li class="cols">
+              <img src="image assets/pcie-ssd.webp" alt="" />
+              <div class="content-cols">
+                <h3>ELIMINATE LOADING TIMES</h3>
+                <p>
+                  No one likes to wait for loading screens. With PCIe Gen4x4,
+                  you’ll get into the game faster than ever before. Whether
+                  you’re loading a new mission, installing the latest game to
+                  your library, or working with large projects and file
+                  transfers, PCIe Gen4 has more than enough bandwidth to keep
+                  your machine running snappy.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!--gpu section-->
+      <section id="gpu">
+        <div class="gpu-flexbox">
+          <!--div wrapping text content for gpu section-->
+          <div class="gpu-bg-and-text">
+            <div class="gpu-bg-decoration"></div>
+            <div class="gpu-text-content">
+              <h2>GAMING POWER OPTIMIZED</h2>
+              <p>
+                Top-tier components require power, especially when it comes to
+                cutting-edge GPUs. Powered by NVIDIA DLSS 3, ultra-efficient Ada
+                Lovelace arch, Max-Q Technologies, the NVIDIA® GeForce RTX™ 4070
+                Laptop GPU is fully unleashed with a max TGP of 140W on Strix
+                G17. Higher power limits unlock even more performance from this
+                cutting-edge silicon, ensuring you have the absolute best gaming
+                experience. <br /><br />
+                With NVIDIA® Advanced Optimus, the laptop can automatically
+                route frames from the discrete GPU directly to the display using
+                a MUX switch, bypassing the integrated graphics. This pathing
+                improves performance 5-10% compared to machines without a MUX
+                Switch, making sure you get the absolute best gaming
+                experience—all without needing touch a single button. This
+                automatic switching also preserves your machine's battery life,
+                as it can dynamically transition between the high-power discrete
+                GPU and the lower power integrated GPU. No matter what you’re
+                doing, your machine will switch to the most optimized mode
+                without you having to lift a finger.​ *Performance increase may
+                vary by game
+              </p>
+            </div>
+          </div>
+          <img src="image assets/mux.webp" alt="" />
+        </div>
+      </section>
+
+      <!--cooling section-->
+      <section id="cooling">
+        <!--div wrapping bg decoration images-->
+        <div class="cooling-bg">
+          <img src="bg-images/bg-cooling.webp" alt="" class="cooling-bg-1" />
+          <img
+            src="bg-images/deco-web-cooling.webp"
+            alt=""
+            class="cooling-bg-2"
+          />
+          <div class="left-deco-bg">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <!--div wrapping text content and images with flex display for cooling section-->
+        <div class="cooling-flexbox">
+          <div class="cooling-text-content">
+            <img src="image assets/rog-intelligent-cooling.svg" />
+            <h2>IMPROVES YOUR EXPERIENCE</h2>
+            <p>
+              Top-tier gaming components generate heat, which can impact
+              performance and noise levels. The Strix G17 utilizes ROG
+              Intelligent Cooling™ to keep thermals under control. Conductonaut
+              Extreme liquid metal on the CPU begins the process, lowering
+              temperatures by up to 15° Celsius compared to traditional thermal
+              pastes. Four exhaust vents make sure that the laptop can rid
+              itself of excess heat as efficiently as possible. Software
+              profiles customize the experience, with Silent Mode keeping noise
+              levels quiet in lighter tasks, and performance mode unlocking the
+              power of your laptop by increasing both graphics power limits and
+              fan speeds. The Strix G17 is surprisingly quiet in any scenario,
+              at just 35db in Silent mode, 40db in Performance mode, and 51db in
+              Turbo mode. No matter what you’re doing, you can choose the ideal
+              balance between power and acoustics.
+            </p>
+            <!--list for features with flex display-->
+            <div class="cooling-features">
+              <ul>
+                <li>
+                  <p>Conductonaut Extreme liquid metal</p>
+                  <h3>Up to 15°C cooler CPU</h3>
+                  <img src="image assets/conductonaut.png" alt=""
+                  class="conductonaut" width=35%" />
+                </li>
+                <li>
+                  <h3>Arc Flow Fans™</h3>
+                  <p>84 Curved Blades</p>
+                </li>
+                <li><h3>4 Fan Outlets</h3></li>
+                <li>
+                  <h3>Under 40 dB</h3>
+                  <p>In Performance Mode</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <img
+            src="image assets/cooling-strix-g-2022.webp"
+            alt=""
+            class="cooling-laptop-img"
+          />
+        </div>
+        <!--bg deco img-->
+        <img
+          class="cooling-txt-image"
+          src="bg-images/txt-cooling.webp"
+          alt=""
+        />
+      </section>
+
+      <!--video-cooling section with two divs, each wrapping a video and text content-->
+      <section class="video-cooling">
+        <div class="liquid-metal">
+          <div class="liquid-metal-text-content">
+            <h2>KEEP YOUR CPU COOL WITH LIQUID METAL</h2>
+            <p>
+              The 2023 Strix G17 features Thermal Grizzly’s cutting-edge
+              Conductonaut Extreme liquid metal, which improves heat transfer
+              from the CPU. Compared to traditional thermal pastes, this
+              indium-gallium-based compound​ offers 17X higher conductivity, in
+              addition to CPU temperature reductions of up to 15 degrees. Used
+              exclusively by ROG, this material offers the highest thermal
+              transfer available on a laptop.<br />
+              <small
+                >*Temperature improvements compared to the previous gen thermal
+                compound, as tested internally by ASUS. Thermal conductivity
+                compared to industry standard.</small
+              >
+            </p>
+          </div>
+          <video
+            src="video-assets/liquid-metal.mp4"
+            type="video/mp4"
+            muted
+            autoplay
+            loop
+            class="cooling-vid"
+          ></video>
+        </div>
+        <div class="fans">
+          <div class="fans-text-content">
+            <h2>
+              UPGRADED ARC FLOW FANS™ <br />
+              MORE AIR WITH LESS NOISE
+            </h2>
+            <p>
+              Updated Arc Flow Fans™ feature 84 curved blades specially shaped
+              to maximize airflow with minimal noise. Variable thickness blades
+              reduce turbulence as the fan accelerates air with centrifugal
+              force, giving you a quieter overall experience.<br />
+              <small>
+                *Airflow improvements compared to the 71-blade ROG fan design,
+                as tested internally by ASUS</small
+              >
+            </p>
+          </div>
+          <video
+            src="video-assets/arc-flow-fans.mp4"
+            type="video/mp4"
+            autoplay
+            loop
+            class="cooling-vid"
+            muted
+          ></video>
+        </div>
+      </section>
+
+      <!--features section-->
+      <section id="features-cooling">
+        <!--bg deco-->
+        <div class="features-bg-deco"></div>
+        <!--main div wrapping other divs. used for position and carousal display-->
+        <div class="features-flex-content">
+          <!--div wrapping 5 divs with flex display-->
+          <div class="features-flexbox">
+            <div class="slide">
+              <figure>
+                <picture>
+                  <source
+                    srcset="
+                      https://dlcdnwebimgs.asus.com/files/media/B6E6970A-9728-4F44-A81E-4175939B8925/v1/img-webp/cooling/feature/urtra-thin-fins.webp
+                    "
+                  />
+                  <img
+                    src="https://dlcdnwebimgs.asus.com/files/media/B6E6970A-9728-4F44-A81E-4175939B8925/v1/img-webp/cooling/feature/urtra-thin-fins.webp"
+                    alt="ultra thin fins"
+                    class="features-img"
+                  />
+                </picture>
+              </figure>
+              <div class="text-content">
+                <h3>
+                  <strong>0.1mm ultra-thin fins</strong>
+                </h3>
+                <p>
+                  Thermal energy is dissipated by four heatsinks in the flanks.
+                  Each one is lined with ultra-thin fins as slim as 0.1mm,
+                  allowing higher density and lower air resistance than typical
+                  fins. There are 247 heatsink fins totaling 93,354mm2 of
+                  surface area, specially shaped for the chassis to guide
+                  airflow in multiple directions.
+                </p>
+              </div>
+            </div>
+            <div class="slide slide-2">
+              <figure>
+                <picture>
+                  <source
+                    srcset="
+                      https://dlcdnwebimgs.asus.com/files/media/B6E6970A-9728-4F44-A81E-4175939B8925/v1/img-webp/cooling/feature/anti-dust-tunnels.webp
+                    " />
+                  <img
+                    src="https://dlcdnwebimgs.asus.com/files/media/B6E6970A-9728-4F44-A81E-4175939B8925/v1/img-webp/cooling/feature/anti-dust-tunnels.webp"
+                    alt=""
+                    class="features-img"
+                /></picture>
+              </figure>
+              <div class="text-content">
+                <h3>
+                  Second generation
+                  <strong>Anti dust Tunnels</strong>
+                  ejects debris
+                </h3>
+                <p>
+                  Our upgraded thermal module design features shorter anti-dust
+                  tunnels that leave more space around the fan, improving
+                  airflow by up to 15%. Preventing the buildup of dust ensures
+                  the long-term stability and reliability of your system.
+                </p>
+              </div>
+            </div>
+            <div class="slide">
+              <figure>
+                <picture>
+                  <source
+                    srcset="
+                      https://dlcdnwebimgs.asus.com/files/media/B6E6970A-9728-4F44-A81E-4175939B8925/v1/img-webp/cooling/feature/3d-flow-zone.webp
+                    " />
+                  <img
+                    src="https://dlcdnwebimgs.asus.com/files/media/B6E6970A-9728-4F44-A81E-4175939B8925/v1/img-webp/cooling/feature/3d-flow-zone.webp"
+                    alt=""
+                    class="features-img"
+                /></picture>
+              </figure>
+              <div class="text-content">
+                <h3><strong>3D Flow Zone</strong> gives access to fresh air</h3>
+                <p>
+                  Ample airflow is a fundamental aspect of effective cooling. To
+                  amp up cool air intake for the Strix G17, its hinges are
+                  shifted forward in front of a heavily ventilated 3D Flow Zone.
+                  A trapezoidal cut carves out the bottom of the screen to
+                  ensure that the venting below is unobstructed, while giving
+                  the laptop its signature asymmetrical style.
+                </p>
+              </div>
+            </div>
+            <div class="slide">
+              <figure>
+                <picture>
+                  <source
+                    srcset="
+                      https://dlcdnwebimgs.asus.com/files/media/B6E6970A-9728-4F44-A81E-4175939B8925/v1/img-webp/cooling/feature/coolzone-keyboard.webp
+                    "
+                  />
+                  <img
+                    src="https://dlcdnwebimgs.asus.com/files/media/B6E6970A-9728-4F44-A81E-4175939B8925/v1/img-webp/cooling/feature/coolzone-keyboard.webp"
+                    alt=""
+                    class="features-img"
+                  />
+                </picture>
+              </figure>
+              <div class="text-content">
+                <h3><strong>CoolZone keyboard</strong> keeps you frosty</h3>
+                <p>
+                  Extended gaming sessions can heat up internal components and
+                  make those areas on the keyboard above warm to the touch. To
+                  keep your fingers cool, small vents around the WASD keys let
+                  the fans draw cool air into the chassis from above.
+                </p>
+              </div>
+            </div>
+            <div class="slide slide-5">
+              <figure>
+                <picture>
+                  <source
+                    srcset="
+                      https://dlcdnwebimgs.asus.com/files/media/B6E6970A-9728-4F44-A81E-4175939B8925/v1/img-webp/cooling/feature/0db-ambient-cooling.webp
+                    "
+                  />
+                  <img
+                    src="https://dlcdnwebimgs.asus.com/files/media/B6E6970A-9728-4F44-A81E-4175939B8925/v1/img/cooling/feature/0db-ambient-cooling.jpg"
+                    class="features-img"
+                  />
+                </picture>
+              </figure>
+              <div class="text-content">
+                <h3>0dB Ambient Cooling</h3>
+                <p>
+                  Enjoy truly silent cooling under light workloads with 0dB
+                  Ambient Cooling. In the Silent operating mode, the cooling
+                  system switches off all fans during light tasks to dissipate
+                  heat passively. This lets you concentrate on your work and
+                  immerse yourself in movies with less distraction. If CPU or
+                  GPU temperatures increase, the fans automatically switch on
+                  again.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!--right and left buttons for the slider-->
+          <button class="btn right-btn">
+            <i
+              class="fa fa-arrow-right"
+              aria-hidden="true"
+              style="font-size: 2.5rem"
+            ></i>
+          </button>
+          <button class="btn left-btn">
+            <i
+              class="fa fa-arrow-left"
+              aria-hidden="true"
+              style="font-size: 2.5rem"
+            ></i>
+          </button>
+        </div>
+      </section>
+
+      <!--design section wrapping two divs-->
+      <section class="design">
+        <!--div wrapping bg deco text-->
+        <div class="design-deco">
+          <picture>
+            <source
+              srcset="
+                https://dlcdnwebimgs.asus.com/files/media/B6E6970A-9728-4F44-A81E-4175939B8925/v1/img-webp/design/color/txt-grey.webp
+              "
+              type="image/webp"
+            />
+            <img
+              src="https://dlcdnwebimgs.asus.com/files/media/B6E6970A-9728-4F44-A81E-4175939B8925/v1/img/design/color/txt-grey.png"
+              alt="#DESIGN"
+              class="design-txt"
+            />
+          </picture>
+        </div>
+        <!--div wrapping three divs each including text content and images for design section-->
+        <div class="design-flexbox">
+          <div class="left">
+            <div class="left-top">
+              <figure class="design-img">
+                <picture>
+                  <source
+                    srcset="
+                      https://dlcdnwebimgs.asus.com/files/media/B6E6970A-9728-4F44-A81E-4175939B8925/v1/img-webp/design/feature-1.webp
+                    "
+                    type="image/webp"
+                  />
+                  <img
+                    src="https://dlcdnwebimgs.asus.com/files/media/B6E6970A-9728-4F44-A81E-4175939B8925/v1/img/design/feature-1.png"
+                    class="design-img-1"
+                    width="100%"
+                  />
+                </picture>
+              </figure>
+              <div class="design-text-content p1">
+                <p>
+                  The Strix G17’s sporty Armor Caps add even more personality to
+                  the machine. Subtle cut-outs and icons adorn the exterior and
+                  add even more intrigue to the bottom of the laptop, setting
+                  the system apart at any angle.
+                </p>
+              </div>
+            </div>
+            <div class="left-bottom">
+              <figure class="design-img">
+                <picture>
+                  <source
+                    srcset="
+                      https://dlcdnwebimgs.asus.com/files/media/B6E6970A-9728-4F44-A81E-4175939B8925/v1/img-webp/design/feature-2.webp
+                    "
+                    type="image/webp"
+                  />
+                  <img
+                    src="https://dlcdnwebimgs.asus.com/files/media/B6E6970A-9728-4F44-A81E-4175939B8925/v1/img/design/feature-2.png"
+                    width="100%"
+                  />
+                </picture>
+              </figure>
+              <div class="design-text-content p2">
+                <p>
+                  A lightbar adds a bit of a glow and can be customized with
+                  Aura Sync. Paired with the RGB keyboard, you can easily
+                  illuminate your domain.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="right">
+            <figure class="design-img">
+              <picture>
+                <source
+                  srcset="
+                    https://dlcdnwebimgs.asus.com/files/media/B6E6970A-9728-4F44-A81E-4175939B8925/v1/img-webp/design/feature-3.webp
+                  "
+                  type="image/webp"
+                />
+                <img
+                  src="https://dlcdnwebimgs.asus.com/files/media/B6E6970A-9728-4F44-A81E-4175939B8925/v1/img/design/feature-3.png"
+                  width="100%"
+                />
+              </picture>
+              <picture>
+                <source
+                  srcset="
+                    https://dlcdnwebimgs.asus.com/files/media/B6E6970A-9728-4F44-A81E-4175939B8925/v1/img-webp/design/feature-3-cover.webp
+                  "
+                  type="image/webp"
+                />
+                <img
+                  src="https://dlcdnwebimgs.asus.com/files/media/B6E6970A-9728-4F44-A81E-4175939B8925/v1/img/design/feature-3-cover.png"
+                  alt=""
+                  class="right-deco"
+                />
+              </picture>
+              <div class="design-text-content p3">
+                <p>
+                  Wrapped into a robust milled aluminum chassis, the Strix
+                  G17&nbsp;is ready to go with you anywhere.
+                </p>
+              </div>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <!--display section wrapping bg deco-text and a div-->
+      <section id="display">
+        <!--bg deco text-->
+        <picture>
+          <source
+            srcset="
+              https://dlcdnwebimgs.asus.com/files/media/B6E6970A-9728-4F44-A81E-4175939B8925/v1/img-webp/display/txt-display.webp
+            "
+            type="image/webp"
+          />
+          <img
+            src="https://dlcdnwebimgs.asus.com/files/media/B6E6970A-9728-4F44-A81E-4175939B8925/v1/img/display/txt-display.png"
+            alt="#DISPLAY"
+            class="display-txt"
+          />
+        </picture>
+        <!--div wrapping text content-->
+        <div class="display-text-content">
+          <h2>COMPETITION HERTZ</h2>
+          <p>
+            As a purpose-built gaming machine, the Strix G17 sports up to QHD
+            240Hz and FHD 144Hz panel options along with NVIDIA® G-SYNC support.
+            High refresh rate displays are critical for competitive gaming,
+            smoothing out animations and keeping enemy movements easier to
+            track. Even in the fastest paced games, the Strix G17 can help you
+            stay locked on target. Select models have a 3ms response time and
+            support Dolby Vision HDR for exceptional contrast and picture
+            quality.
+          </p>
+          <!--list including text-content and images-->
+          <ul>
+            <li>
+              <p>Up to</p>
+              <h3>QHD 240Hz</h3>
+            </li>
+            <li>
+              <img
+                src="https://dlcdnwebimgs.asus.com/files/media/B6E6970A-9728-4F44-A81E-4175939B8925/v1/img/dolby-vision.svg"
+                alt="DOLBY VISION logo"
+                class="dolby"
+              />
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!--sound section wrapping a div-->
+      <section id="sound">
+        <!--div wrapping list with text content and images-->
+        <div class="sound-flexbox">
+          <!--list in sound section with flex display -->
+          <ul>
+            <li>
+              <figure class="sound-fig">
+                <picture>
+                  <source
+                    srcset="
+                      https://dlcdnwebimgs.asus.com/files/media/B6E6970A-9728-4F44-A81E-4175939B8925/v1/img-webp/audio/two-way-ai-noise-cancelation.webp
+                    "
+                    type="image/webp"
+                  />
+                  <img
+                    src="https://dlcdnwebimgs.asus.com/files/media/B6E6970A-9728-4F44-A81E-4175939B8925/v1/img/audio/two-way-ai-noise-cancelation.jpg"
+                    alt="Person in an ROG t-shirt, with the words “Two-Way AI Noise Cancelation” superimposed above the image."
+                    class="sound-img-hover"
+                  />
+                </picture>
+                <picture>
+                  <source
+                    srcset="
+                      https://dlcdnwebimgs.asus.com/files/media/B6E6970A-9728-4F44-A81E-4175939B8925/v1/img-webp/audio/two-way-ai-noise-cancelation-txt.webp
+                    "
+                    type="image/webp"
+                  />
+                  <img
+                    src="https://dlcdnwebimgs.asus.com/files/media/B6E6970A-9728-4F44-A81E-4175939B8925/v1/img/audio/two-way-ai-noise-cancelation-txt.jpg"
+                    alt=""
+                    class="sound-img"
+                  />
+                </picture>
+                <div class="sound-text-content">
+                  <h3>AI Noise Cancellation</h3>
+                  <p>
+                    Our advanced Two-Way AI Noise Cancelation technology works
+                    with any input device and also with downstream connections,
+                    letting you remove noise from both your own mic input and
+                    from incoming feeds. Noise-canceling settings can even be
+                    customized on a per application basis.
+                  </p>
+                </div>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <picture>
+                  <source
+                    srcset="
+                      https://dlcdnwebimgs.asus.com/files/media/B6E6970A-9728-4F44-A81E-4175939B8925/v1/img-webp/audio/immersive.webp
+                    "
+                    type="image/webp"
+                  />
+                  <img
+                    src="https://dlcdnwebimgs.asus.com/files/media/B6E6970A-9728-4F44-A81E-4175939B8925/v1/img/audio/immersive.jpg"
+                    alt="Person carrying a Strix G17, with the wording “Strix G”, “Immersive sound”, and “Dolby Atmos” on the image."
+                    class="sound-img-hover"
+                  />
+                </picture>
+                <picture>
+                  <source
+                    srcset="
+                      https://dlcdnwebimgs.asus.com/files/media/B6E6970A-9728-4F44-A81E-4175939B8925/v1/img-webp/audio/immersive-txt.webp
+                    "
+                    type="image/webp"
+                  />
+                  <img
+                    src="https://dlcdnwebimgs.asus.com/files/media/B6E6970A-9728-4F44-A81E-4175939B8925/v1/img/audio/immersive-txt.jpg"
+                    alt=""
+                    class="sound-img"
+                  />
+                </picture>
+                <div class="sound-text-content">
+                  <h3>Immersive sound</h3>
+                  <p>
+                    Richer audio draws you more deeply into gameplay and media.
+                    Virtual 5.1.2-channel surround sound powered by Dolby Atmos
+                    enhances spatial immersion with more nuanced, layered sound
+                    effects that you can optimize with specially tuned preset
+                    modes for movies and games.
+                  </p>
+                </div>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <picture>
+                  <source
+                    srcset="
+                      https://dlcdnwebimgs.asus.com/files/media/B6E6970A-9728-4F44-A81E-4175939B8925/v1/img-webp/audio/hi-res.webp
+                    "
+                    type="image/webp"
+                  />
+                  <img
+                    src="https://dlcdnwebimgs.asus.com/files/media/B6E6970A-9728-4F44-A81E-4175939B8925/v1/img/audio/hi-res.jpg"
+                    class="sound-img-hover"
+                  />
+                </picture>
+                <picture>
+                  <source
+                    srcset="
+                      https://dlcdnwebimgs.asus.com/files/media/B6E6970A-9728-4F44-A81E-4175939B8925/v1/img-webp/audio/hi-res-txt.webp
+                    "
+                    type="image/webp"
+                  />
+                  <img
+                    src="https://dlcdnwebimgs.asus.com/files/media/B6E6970A-9728-4F44-A81E-4175939B8925/v1/img/audio/hi-res-txt.jpg"
+                    class="sound-img"
+                  />
+                </picture>
+                <div class="sound-text-content">
+                  <h3>Hi-Res</h3>
+                  <p>
+                    Hi-Res Audio provides lossless audio, letting you hear
+                    recordings exactly as the artist intended.
+                  </p>
+                </div>
+              </figure>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!--div to scroll to the top of the page-->
+      <div id="to-top">
+        <a href="#" onclick="scrollfunction()"
+          ><i class="fa fa-arrow-up fa-3x" aria-hidden="true"></i
+        ></a>
+      </div>
+    </main>
+    <!--footer includes three divs-->
+    <footer>
+      <div class="foot-top">
+        <img class="asus" src="image assets/asus-logo.svg" />
+        <ul>
+          <li><a href="#">GAMING LAPTOPS</a></li>
+          <li><a href="#">ROG STRIX</a></li>
+          <li><a href="#">ROG STRIX G17</a></li>
+        </ul>
+      </div>
+      <div class="foot-middle">
+        <ul>
+          <li><a href="#">ABOUT ROG</a></li>
+          <li><a href="#">HOME</a></li>
+        </ul>
+        <ul>
+          <li>
+            <a href="#"
+              ><img
+                src="image assets/facebook.svg"
+                alt="Facebook"
+                class="fb-logo"
+            /></a>
+          </li>
+          <li>
+            <a href="#"><img src="image assets/twitter.svg" alt="Twitter" /></a>
+          </li>
+        </ul>
+      </div>
+      <!--div for creating a footer line-->
+      <div class="footerline">
+        <div></div>
+      </div>
+      <div class="foot-bottom">
+        <div class="region">
+          <img src="image assets/region.svg" />
+          <a href="#">Middle East/English</a>
+        </div>
+        <div class="privacy-content">
+          <a href="#">PRIVACY POLICY</a>
+          <a href="#">TERMS OF USE NOTICE</a>
+          <a href="#">©ASUSTEK COMPUTER INC. ALL RIGHTS RESERVED.</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
